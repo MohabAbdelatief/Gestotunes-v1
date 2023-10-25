@@ -17,3 +17,8 @@ Empower users to control music playback, volume, and other functions using natur
 Enhance the user experience by providing an intuitive and engaging interface for interacting with music.
 Promote the adoption of gesture-based interaction in the field of HCI and beyond.
 Explore the potential of gesture recognition and marker integration in applications beyond music control.
+
+Created By
+- [@farahashraf6] https://github.com/farahashraf6
+- [@HossDB] https://github.com/HossDB
+- [@NadaNady705432] https://github.com/NadaNady705432
