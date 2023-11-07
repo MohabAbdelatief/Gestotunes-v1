@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+body {
+    background-color: #292929;
+    margin: 0px;
+    font-family: 'Space Mono', monospace;
+}
+
+.header {
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main main'
+        'footer footer footer footer footer footer';
+    background-color: #292929;
+}
+
+.grid-container>div {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.LeftSide {
+    grid-area: LeftSide;
+}
+
+.MidPart {
+    grid-area: MidPart;
+}
+
+.RightSide {
+    grid-area: RightSide;
+}
+
+.Bottom {
+    grid-area: Bottom;
+}
+
+.footer {
+    display: grid;
+    grid-template-areas: 'LeftSide MidPart RightSide'
+        'Bottom Bottom Bottom';
+}
+
+.MidTop {
+    grid-area: MidTop;
+}
+
+.MidBottom {
+    grid-area: MidBottom;
+}
+
+.MidPart {
+    display: grid;
+    grid-template-areas: 'MidTop'
+        'MidBottom';
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header ul {
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.header h1 {
+    font-family: 'Space Mono', monospace;
+}
+
+.header,
+.main,
+.footer {
+    margin-right: 10px;
+}
+
+.header button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Space Mono', monospace;
+    align-items: center;
+}
+
+.header button:hover {
+    background-color: rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.menu {
+    margin-right: 3px;
+}
+
+.menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+
+.menu li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.LeftSide {
+    display: flex;
+    align-items: center;
+}
+
+.LeftSide li {
+    margin-left: 10px;
+    padding: 0px;
+}
+
+
+#albumCoverPic {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+.Bottom {
+    justify-content: center;
+}
+
+#song-playtime {
+    width: 100%;
+}
+
+h2 {
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.MidPart img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.footer img {
+    margin-bottom: 10px;
+}
+
+.MidPart ul {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.MidPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MidPart li {
+    padding: 10px;
+}
+
+.RightSide img {
+    width: 30px;
+    height: 30px;
+}
+
+.RightSide ul {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.RightSide li {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.RightSide {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+}
+
+.TopLeft {
+    grid-area: TopLeft;
+
+}
+
+.TopMid {
+    grid-area: TopMid;
+}
+
+.TopRight {
+    grid-area: TopRight;
+}
+
+.MidLeft {
+    grid-area: MidLeft;
+}
+
+.MidMid {
+    grid-area: MidMid;
+}
+
+.MidRight {
+    grid-area: MidRight;
+}
+
+.BottomLeft {
+    grid-area: BottomLeft;
+}
+
+.BottomMid {
+    grid-area: BottomMid;
+}
+
+.BottomRight {
+    grid-area: BottomRight;
+}
+
+.main {
+    display: grid;
+    grid-template-areas: 'TopLeft TopMid TopRight'
+        'MidLeft MidMid MidRight'
+        'BottomLeft BottomMid BottomRight';
+    grid-gap: 10px;
+}
+
+.main img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.main ul {
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.main li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AlbumName {
+    font-size: 10px;
+}

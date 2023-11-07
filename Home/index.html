@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GestoTUNES</title>
+    <link rel="stylesheet" href="../Home/style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <ul>
+                <li><a href="../Home/index.html">
+                        <h1>GestoTUNES</h1>
+                    </a></li>
+                <li>
+                    <a href="../StartPage/index.html">
+                        <button>Logout</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <img src="../Database/icons/home.png" alt="HomePage">
+                    <a href="../Home/index.html">Home</a>
+                </li>
+                <li>
+                    <img src="../Database/icons/library.png" alt="LibraryPage">
+                    <a href="../Library/index.html">Library</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="TopLeft">
+                <ul>
+                    <li>
+                        <img src="../Database/images/AlbumCovers/TheSearch.png" alt="The Search">
+                    </li>
+                    <li>NF</li>
+                    <li class="AlbumName">The Search</li>
+                </ul>
+            </div>
+            <div class="TopMid">
+
+                <ul>
+                    <li><img src="../Database/images/AlbumCovers/DifferentWorld.png" alt="Different World"></li>
+                    <li>Alan Walker</li>
+                    <li class="AlbumName">Different World</li>
+                </ul>
+            </div>
+            <div class="TopRight">
+
+                <ul>
+                    <li><img src="../Database/images/AlbumCovers/Blessed.png" alt="Blessed"></li>
+                    <li>Josh A</li>
+                    <li class="AlbumName">Blessed</li>
+                </ul>
+            </div>
+
+            <div class="MidLeft">
+
+                <ul>
+                    <li><img src="../Database/images/AlbumCovers/HOPE.png" alt="HOPE"></li>
+                    <li>NF</li>
+                    <li class="AlbumName">HOPE</li>
+                </ul>
+            </div>
+            <div class="MidMid">
+
+                <ul>
+                    <li><img src="../Database/images/AlbumCovers/UTOPIA.png" alt="UTOPIA"></li>
+                    <li>Travis Scott</li>
+                    <li class="AlbumName">UTOPIA</li>
+                </ul>
+            </div>
+            <div class="MidRight">
+
+                <ul>
+                    <li><img src="../Database/images/AlbumCovers/TheMidSummerStation.png" alt="TMSS"></li>
+                    <li>Owl City</li>
+                    <li class="AlbumName">The MidSummer Station</li>
+                </ul>
+            </div>
+
+            <div class="BottomLeft">
+
+                <ul>
+                    <li><img src="../Database/images/AlbumCovers/MusicToBeMurderedBy.png" alt="MTBMB"></li>
+                    <li>Eminem</li>
+                    <li class="AlbumName">Music to be murdered by</li>
+                </ul>
+            </div>
+            <div class="BottomMid">
+
+                <ul>
+                    <li><img src="../Database/images/AlbumCovers/Evolve.png" alt="Evolve"></li>
+                    <li>Imagine Dragons</li>
+                    <li class="AlbumName">Evolve</li>
+                </ul>
+            </div>
+            <div class="BottomRight">
+
+                <ul>
+                    <li><img src="../Database/images/AlbumCovers/DeathOfABachelor.png" alt="DOFB"></li>
+                    <li>Panic! At THe Disco</li>
+                    <li class="AlbumName">Death of a Bachelor</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="LeftSide">
+                <img id="albumCoverPic" src="../Database/images/AlbumCovers/TheSearch.png" alt="AlbumCover">
+                <ul>
+                    <li>
+                        <h3 id="SongName">The Search</h3>
+                    </li>
+                    <li>
+                        <h2 id="ArtistName">NF</h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="MidPart">
+
+                <ul>
+                    <li id="prev-btn">
+                        <img src="../Database/icons/previous.png" alt="PreviousSong">
+                    </li>
+                    <li>
+                        <img id="play-btn" src="../Database/icons/play.png" alt="PlaySong">
+                    </li>
+                    <li id="next-btn">
+                        <img src="../Database/icons/next.png" alt="NextSong">
+                    </li>
+                </ul>
+
+            </div>
+            <div class="RightSide">
+                <ul>
+                    <li>
+                        <img src="../Database/icons/high-volume.png" alt="Volume" id="volume-img">
+                    </li>
+                    <li>
+                        <input type="range" min="1" max="100" value="100" class="slider" id="volume-slider">
+                    </li>
+                </ul>
+            </div>
+            <div class="Bottom">
+                <input type="range" min="1" max="100" value="1" class="slider" id="song-playtime">
+            </div>
+        </div>
+    </div>
+    <script src="../Home/script.js"></script>
+</body>
+
+</html>

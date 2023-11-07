@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+body {
+    background: linear-gradient(to bottom left, white, rgb(160, 158, 158));
+    background-attachment: fixed;
+}
+.header h1 {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 200px;
+}
+#NewUsername, #NewPassword {
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid rgb(198, 196, 196);
+    width: 300px;
+}
+form {
+    text-align: center;
+    
+}
+.RegisterForm h2{
+    text-align: center;
+    margin: 1px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+}
+.RegisterForm {
+    margin: auto;
+    display: block;
+    width: 500px;
+    border: 1px solid rgb(198, 196, 196);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+}
+#RegisterButton {
+    padding: 7px;
+    margin: 2px;
+    width: 321px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+}
+#RegisterButton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.8s;
+}
+::placeholder {
+    font-size: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'Space Mono', monospace;
+}
+ul {
+    list-style: none;
+    padding: 0%;
+    margin-top: 1px;
+}
+li {
+    display: inline-block;
+    margin: 1px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    margin-top: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Mono', monospace;
+}
