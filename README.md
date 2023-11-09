@@ -7,7 +7,7 @@ TUIO Marker Integration: We utilize TUIO markers to create an interactive and dy
 
 Gesture Detection and Classification: The core of the project relies on the utilization of MediaPipe and dollarpy, state-of-the-art gesture recognition technologies. These tools enable the system to accurately detect and classify a wide range of hand gestures, allowing users to control various music player functions effortlessly.
 
-User-Friendly GUI: The project includes the development of a user-friendly graphical user interface (GUI) built using C#. The GUI is designed with a focus on ease of use and aesthetics, providing an engaging and enjoyable music exploration experience.
+User-Friendly GUI: The project includes the development of a user-friendly graphical user interface (GUI) built using HTML, CSS and JavaScript The GUI is designed with a focus on ease of use and aesthetics, providing an engaging and enjoyable music exploration experience.
 
 Seamless Sockets Integration: The music player is implemented using Python, while the GUI is developed in C#. To ensure smooth communication between these two components, sockets are used, facilitating data exchange and real-time control.
 
