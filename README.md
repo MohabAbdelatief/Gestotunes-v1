@@ -9,7 +9,7 @@ Gesture Detection and Classification: The core of the project relies on the util
 
 User-Friendly GUI: The project includes the development of a user-friendly graphical user interface (GUI) built using HTML, CSS and JavaScript The GUI is designed with a focus on ease of use and aesthetics, providing an engaging and enjoyable music exploration experience.
 
-Seamless Sockets Integration: The music player is implemented using Python, while the GUI is developed in C#. To ensure smooth communication between these two components, sockets are used, facilitating data exchange and real-time control.
+Seamless Sockets Integration: The music player is implemented using JavaScript,Python and C# while the GUI is developed in HTML, CSS and JavaScrip To ensure smooth communication between these two components, web sockets are used, facilitating data exchange and real-time control.
 
 Project Objectives:
 
